@@ -25,8 +25,8 @@ nav {
   align-items: center;
   background-color: var(--dark);
   color: var(--lightest);
-  padding-left: 10vw;
-  padding-right: 10vw;
+  padding-left: 6vw;
+  padding-right: 6vw;
 }
 nav a {
   font-size: 2rem;
@@ -48,13 +48,14 @@ main {
   align-items: center;
   justify-content: space-evenly;
   color: var(--white);
-  padding-left: 10vw;
-  padding-right: 10vw;
+  padding-left: 6vw;
+  padding-right: 6vw;
 }
 section {
   background-color: var(--mid);
   padding: 3rem 6vw;
   border-radius: 1rem;
+  transform: translateY(-2rem);
 }
 .title {
   font-size: 7.2rem;
@@ -78,8 +79,8 @@ a.lead {
   cursor: pointer;
 }
 footer {
-  padding-left: 10vw;
-  padding-right: 10vw;
+  padding-left: 6vw;
+  padding-right: 6vw;
   justify-content: center;
   height: 6.5rem;
   display: flex;
