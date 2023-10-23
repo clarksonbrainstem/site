@@ -1,13 +1,10 @@
 :root {
   --prime: #004F42;
-  --accent: ;
   --black: rgba(10,11,12,0.5);
   --darkest: ;
   --darker:rgba(59,21,20,0.8);
   --dark:rgba(59,21,20,0.6);
   --mid: rgba(59,21,20,0.3);;
-  --light: ;
-  --lighter: ;
   --lightest: rgba(233, 236, 239, 0.8);
   --white: rgba(233, 236, 239, 1);
   --std: all .25s ease-in-out;
@@ -69,6 +66,7 @@ section {
 }
 a.lead {
   font-size: 2.2rem;
+  color: var(--lightest);
   font-weight:400;
   display: block;
   width: 30rem;
@@ -77,6 +75,10 @@ a.lead {
   text-align: center;
   padding: 2rem 4rem;
   cursor: pointer;
+}
+a:hover {
+  color: var(--darker);
+  background-color: var(--lightest);
 }
 footer {
   padding-left: 6vw;
