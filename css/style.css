@@ -83,10 +83,16 @@ a:hover {
 footer {
   padding-left: 6vw;
   padding-right: 6vw;
-  justify-content: center;
+  justify-content: space-between;
   height: 6.5rem;
   display: flex;
   align-items: center;
   background-color: var(--dark);
   color: var(--lightest);
+}
+footer img {
+  background-color: var(--lightest);
+  padding: 0 0 .8rem 0;
+  height: 5.5rem;
+  width: auto;
 }
